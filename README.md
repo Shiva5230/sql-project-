@@ -1,4 +1,17 @@
--- step 1 
+TASK 1 :- As a product owner, I want to generate a report of individual product sales (aggregated on a monthly
+basis at the product code level) for Croma India customer for FY=2021 so that I can track individual
+product sales and run further product analytics on it in excel.
+
+The report should have the following fields,
+
+1. Month
+2. Product Name
+3. Variant
+4. Sold Quantity
+5. Gross Price Per Item
+6. Gross Price Total
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- step 1 
  select * from dim_customer where customer like "%croma%" and market = "india"
 --  90002002 croma customer code
 
