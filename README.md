@@ -1,3 +1,13 @@
+
+
+
+
+![487090-company-logo](https://github.com/user-attachments/assets/7ce11b8a-0669-4dfe-a456-fcfc9127ddbf)
+
+
+
+
+
 TASK 1 :- As a product owner, I want to generate a report of individual product sales (aggregated on a monthly
 basis at the product code level) for Croma India customer for FY=2021 so that I can track individual
 product sales and run further product analytics on it in excel.
