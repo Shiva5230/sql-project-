@@ -33,6 +33,8 @@ fiscal_year = YEAR(DATE_ADD(calendar_date, INTERVAL 4 MONTH));
 
 -- you can also create the user devine function 
 -- joining of 2 tables 
+
+
 select s.date,s.fiscal_year,p.product,p.variant,s.sold_quantity,g.gross_price
 	, round((s.sold_quantity/g.gross_price),2)as gross_per_item
  from fact_sales_monthly s 
